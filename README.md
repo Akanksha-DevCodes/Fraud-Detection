@@ -19,22 +19,6 @@ Power BI dashboards for fraud detection visualization
 Airflow for scheduling and automation of fraud monitoring pipelines  
 Automated alerts for suspicious transactions  
 
-Project Structure
-
-├── data_pipeline
-│   ├── kafka_producer.py      Simulates transaction data stream
-│   ├── spark_streaming.py     Processes transactions in real time
-│   ├── redshift_loader.py     Stores processed data in AWS Redshift
-│   └── airflow_dag.py         Orchestrates the workflow
-├── dashboards
-│   ├── fraud_detection.pbix   Power BI dashboard
-├── infrastructure
-│   ├── terraform_scripts      Infrastructure as Code Terraform
-│   ├── docker_setup           Containerization setup
-├── requirements.txt           Dependencies
-├── .gitignore                 Git ignore file
-└── README.md                  Project Documentation
-
 Installation & Setup
 
 1 Clone the Repository
