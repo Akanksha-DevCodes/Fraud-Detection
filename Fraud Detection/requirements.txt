@@ -1,0 +1,7 @@
+kafka-python
+pyspark
+psycopg2
+apache-airflow
+docker
+terraform
+pandas
